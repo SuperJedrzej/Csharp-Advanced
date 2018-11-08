@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="BookList.cs" />
+    <Compile Include="List.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
