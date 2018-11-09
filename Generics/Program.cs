@@ -1,21 +1,21 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Generics
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            var number = new Nullable<int>(9);
+            Console.WriteLine("Has Value ? " + number.HasValue);
+            Console.WriteLine("Value: " + number.GetValueDefault());
             Console.ReadKey();
-
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
-        }
+         }
     }
 }
